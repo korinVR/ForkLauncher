@@ -1,14 +1,19 @@
 # Fork Launcher
 
-An Unity editor extension package to launch the git client Fork.
+A Unity editor extension package to open the project folder with the git client Fork.
+
+Note: Currently works only on Windows.
 
 ## Install
 
 - Open Unity Package Manager
 - Open "Add package from git URL..."
-- Set the URL https://github.com/korinVR/ForkLauncher.git?path=/Assets/FrameSynthesis/Tools/ForkLauncher/
+- Add https://github.com/korinVR/ForkLauncher.git?path=Assets/FrameSynthesis/Tools/ForkLauncher
+
+And don't forget to install the awesome git client [Fork](https://git-fork.com/).
 
 ## Usage
 
-Just open the menu Fork > Launch Fork.
-Don't forget to install the awesome git client [Fork](https://git-fork.com/).
+Just open the menu Fork > Launch Fork.  
+
+Katsuomi Kobayashi ([@korinVR](https://twitter.com/korinVR))

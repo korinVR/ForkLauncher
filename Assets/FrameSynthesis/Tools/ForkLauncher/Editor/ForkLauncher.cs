@@ -9,10 +9,10 @@ namespace FrameSynthesis.Tools
     public class ForkLauncher
     {
         [MenuItem("Fork/Launch Fork")]
-        public static void OpenFork()
+        public static void LaunchFork()
         {
-            var localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-            var forkPath = Path.Combine(localAppData, "Fork", "Fork.exe");
+            var localApplicationData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            var forkPath = Path.Combine(localApplicationData, "Fork", "Fork.exe");
             var projectPath = Directory.GetParent(Application.dataPath).FullName;
 
             Process.Start(forkPath, projectPath);
