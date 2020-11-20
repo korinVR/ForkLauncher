@@ -1,7 +1,7 @@
 {
   "name": "com.framesynthesis.tools.forklauncher",
   "displayName": "Fork Launcher",
-  "version": "1.0.0",
-  "description": "Launch Fork",
+  "version": "1.0.1",
+  "description": "Fork Launcher",
   "dependencies": {}
 }
