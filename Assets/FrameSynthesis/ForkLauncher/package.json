@@ -1,0 +1,13 @@
+{
+  "name": "com.framesynthesis.fork-launcher",
+  "version": "1.1.0",
+  "displayName": "Fork Launcher",
+  "description": "Add Fork launcher menu",
+  "documentationUrl": "https://github.com/korinVR/ForkLauncher",
+  "author": {
+    "name": "korinVR",
+    "email": "katsuomi.kobayashi@gmail.com",
+    "url": "https://github.com/korinVR"
+  },
+  "dependencies": {}
+}

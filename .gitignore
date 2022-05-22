@@ -21,3 +21,6 @@
 
 # Build
 /dist
+
+# macOS
+default.profraw

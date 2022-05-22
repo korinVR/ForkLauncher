@@ -1,8 +1,7 @@
 {
-    "name": "FrameSynthesis.Tools.ForkLauncher",
-    "references": [
-        ""
-    ],
+    "name": "FrameSynthesis.ForkLauncher",
+    "rootNamespace": "",
+    "references": [],
     "includePlatforms": [
         "Editor"
     ],
