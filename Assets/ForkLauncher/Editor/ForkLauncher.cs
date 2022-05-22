@@ -12,9 +12,10 @@ public class ForkLauncher
         switch (Application.platform)
         {
             case RuntimePlatform.WindowsEditor:
+                var projectPath = Directory.GetParent(Application.dataPath).FullName;
                 var localApplicationData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
                 var forkPath = Path.Combine(localApplicationData, "Fork", "Fork.exe");
-                Process.Start(forkPath, ".");
+                Process.Start(forkPath, projectPath);
                 break;
             case RuntimePlatform.OSXEditor:
                 Process.Start("open", "-a Fork .");
