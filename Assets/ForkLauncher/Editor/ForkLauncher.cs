@@ -15,7 +15,7 @@ public class ForkLauncher
                 var projectPath = Directory.GetParent(Application.dataPath).FullName;
                 var localApplicationData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
                 var forkPath = Path.Combine(localApplicationData, "Fork", "Fork.exe");
-                Process.Start(forkPath, projectPath);
+                Process.Start(forkPath, $"\"{projectPath}\"");
                 break;
             case RuntimePlatform.OSXEditor:
                 Process.Start("open", "-a Fork .");
